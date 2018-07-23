@@ -67,7 +67,7 @@ if( mysqli_num_rows($query) < 1 ){
                             </div>
                             <div class="form-group">
                                 <label for="pos">Posisi:</label>
-                                <!-- <input type="text" name="posisi" class="form-control" id="posisi" value="<?php echo $perp['posisi'] ?>"> -->
+                                <!-- <input type="text" name="posisi" class="form-control" id="posisi" value=""> -->
                                 <?php $rak = $perp['posisi'];?>
                                 <select name ="posisi" class="form-control" id="posisi" required>
                                     <option <?php echo $rak;?>><?php echo $rak ;?></option>
