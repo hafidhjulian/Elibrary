@@ -1,0 +1,16 @@
+body{
+    background-image: url('bg1.jpg');
+    background-size: 100% 654px;
+}
+.card{
+    width: 400px;
+    margin-left: 50px;
+}
+
+h4{
+    color: white;
+}
+
+#paral .card{
+    margin: auto;
+}
