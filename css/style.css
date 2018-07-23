@@ -1,0 +1,126 @@
+body{
+	font-family: 'Quicksand', sans-serif;
+}
+.head-background{
+	background: white;
+}
+#perpus{
+  background: url(bg1.jpg);
+  width: 100%;
+  height: 654px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: column; // cannot use `inherit` to get the `.navbar`s value
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  margin-left: 870px;
+  margin-top: 0px;
+
+  .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.navbar-text {
+  display: inline-block;
+  padding-top: $nav-link-padding-y;
+  padding-bottom: $nav-link-padding-y;
+}
+.nav-link{
+	color: white;
+	float: right;
+}
+.nav-item{
+	float: right;
+}
+.navbar{
+  float: right;
+}
+.navbar-brand img{
+  float: left;
+  width: 65px;
+  height: 76px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 0px;
+  display: inline-block;
+}
+.modal-body .btnlogin {
+    width: 100%;
+    margin-left: 0px;
+}
+.modal-backdrop .show{
+  opacity: 0;
+}
+.modal-backdrop{
+  z-index: 2;
+}
+.modal-backdrop.show {
+    opacity: 0;
+    z-index: 1;
+}
+
+
+#judcar{
+  margin-top: 220px;
+  color: white;
+  margin-bottom: 0px;
+}
+.searchwrapper {
+  width: 100%;
+  margin: 25px auto;
+  margin-top: 20px;
+}
+.searchbox {
+  background-color:#fff;
+  padding: 10px 76px 10px 40px;
+  border-radius: 50px;
+  box-shadow: none;
+}
+.searchbox [class*="col-"] {
+  padding: 0px;
+}
+.searchbox .col-md-10 { 
+  padding-top: 12px; 
+  padding-bottom: 12px;
+}
+.searchbox .form-control {
+  border: none;
+}
+.searchbox .form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+.searchbox .btn { 
+  margin-top: 10px;
+  margin-left: 160px;
+}
+#perpus #butdis{
+  width: 200px;
+  height: 50px;
+}
+
+.profil img{
+  width: 200px;
+  height: 200px;
+  /*-webkit-filter: grayscale(100%);
+  filter: grayscale(100%);*/
+  float: center;
+}
+.footer{
+  background-color: #F1F2E7;
+  padding: 30px;
+  margin-top: 0px;
+  font: black;
+}
+

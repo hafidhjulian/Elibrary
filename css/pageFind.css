@@ -1,0 +1,62 @@
+body{
+	font-family: 'Quicksand', sans-serif;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column; // cannot use `inherit` to get the `.navbar`s value
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  margin-left: 870px;
+  margin-top: 0px;
+
+  .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.navbar-text {
+  display: inline-block;
+  padding-top: $nav-link-padding-y;
+  padding-bottom: $nav-link-padding-y;
+}
+.nav-link{
+	color: white;
+}
+.navbar-brand img{
+  float: left;
+  width: 65px;
+  height: 76px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 0px;
+  display: inline-block;
+}
+
+#header{
+  background: url(bg1.jpg);
+  width: 100%;
+  height: 250px;
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#kolcar{
+	margin-top: 50px;
+	margin-left: 830px;
+}
+#kolcar input{
+	border-radius: 50px;
+	padding: 10px;
+}
+
+#tabble{
+  margin-top: 20px;
+  overflow-y: scroll; 
+  height: 300px;
+}

@@ -1,0 +1,52 @@
+body{
+	font-family: 'Quicksand', sans-serif;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column; // cannot use `inherit` to get the `.navbar`s value
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  margin-left: 870px;
+  margin-top: 0px;
+
+  .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.navbar-text {
+  display: inline-block;
+  padding-top: $nav-link-padding-y;
+  padding-bottom: $nav-link-padding-y;
+}
+.nav-link{
+	color: black;
+	float: right;
+}
+.nav-item{
+	float: right;
+}
+.navbar{
+  margin-top: 0px;
+}
+.navbar-brand img{
+  float: left;
+  width: 65px;
+  height: 76px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 0px;
+}
+
+#judadmin{
+  margin-top: 50px;
+}
+
+#inputFile{
+  display: none;
+}
+#tabdat{
+    overflow-y: scroll; 
+}
